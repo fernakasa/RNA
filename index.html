@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/ucp.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>Vite App</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="tittle" style="font-size: 30px;">RED NEURONAL 2023</div>
+      <div class="control">
+          <input id="input-legacy" class="input-legacy" type="text">
+          <i class='bx bxs-send' id="clickBtn"></i>
+      </div>
+      <div id="output" class="text-box">
+        <div id="msg" ></div>
+        <div id="titles">
+        </div>
+      </div>
+      <div class="footer">Copyright © El Grupito de Atras</div>
+  </div>
+    <script src="./lib/pureknob.js" type="text/javascript"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script type="module" src="/js/main.js"></script>
+  </body>
+</html>
